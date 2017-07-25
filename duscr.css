@@ -1,0 +1,9 @@
+input{
+			width: 50px
+		}
+		#op1 , #op2{
+			width: 20px;
+			font-size: 15px;
+			text-align: center;
+			font-family: bold;
+		}
