@@ -24,7 +24,7 @@ function ret() {
 			rez.innerHTML = "X" + "<sub>" + "1" + "</sub>" + " = " + x1;
 			rez = document.getElementById('rezult2');
 			rez.innerHTML = "X" + "<sub>" + "2" + "</sub>" + " = " + x2;
-			document.getElementById(d).innerHTML = "D" + " = " + d;
+			document.getElementById('d').innerHTML = "D" + " = " + d;
 
 			}
 
@@ -43,7 +43,7 @@ function ret() {
 			rez.innerHTML = "X" + "<sub>" + "1" + "</sub>" + " = " + x1;
 			rez = document.getElementById('rezult2');
 			rez.innerHTML = "X" + "<sub>" + "2" + "</sub>" + " = " + x2;
-
+			document.getElementById('d').innerHTML = "D" + " = " + d;
 			}
 
 			if(zn1 == "+" && zn2 == "+" && d < 0 ) {
@@ -63,6 +63,7 @@ function ret() {
 			rez.innerHTML = "X" + "<sub>" + "1" + "</sub>" + " = " + x1;
 			rez = document.getElementById('rezult2');
 			rez.innerHTML = "X" + "<sub>" + "2" + "</sub>" + " = " + x2;
+			document.getElementById('d').innerHTML = "D" + " = " + dm;
 
 			}
 
@@ -81,6 +82,7 @@ function ret() {
 			rez.innerHTML = "X" + "<sub>" + "1" + "</sub>" + " = " + x1;
 			rez = document.getElementById('rezult2');
 			rez.innerHTML = "X" + "<sub>" + "2" + "</sub>" + " = " + x2;
+			document.getElementById('d').innerHTML = "D" + " = " + dm;
 
 			}
 
