@@ -1,12 +1,12 @@
 function ret() {
 			var one = document.getElementById('n1').value;
-			one = parseInt(one);
+			one = parseFloat(one);
 
 			var two = document.getElementById('n2').value;
-			two = parseInt(two);
+			two = parseFloat(two);
 	
 			var three = document.getElementById('n3').value;
-			three = parseInt(three);
+			three = parseFloat(three);
 			var zn1 = document.getElementById('op1').value;
 			var zn2 = document.getElementById('op2').value;
 			var d = Math.pow(two , 2) + 4*one*three;
