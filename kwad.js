@@ -24,6 +24,7 @@ function ret() {
 			rez.innerHTML = "X" + "<sub>" + "1" + "</sub>" + " = " + x1;
 			rez = document.getElementById('rezult2');
 			rez.innerHTML = "X" + "<sub>" + "2" + "</sub>" + " = " + x2;
+			document.getElementById(d).innerHTML = "D" + " = " + d;
 
 			}
 
